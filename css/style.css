@@ -27,10 +27,23 @@ div.header {
   font-size: 10px;
 }
 
-/* Code listing */
-ul#repos li {
+/* Twitter and Code listing */
+ul.list li {
   list-style-type: none;
   text-align: right;
+  font-size: 10px;
+}
+#tweets li {
+  margin-bottom: 10px;
+}
+span.tweet_text {
+  display:block;
+  text-align: left;
+}
+span.created_at {
+  display:block;
+  color:#999;
+  font-size: 8px;
 }
 
 /* Footerstuff */

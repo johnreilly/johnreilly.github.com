@@ -1,5 +1,5 @@
 $(function() {
-  var limit = 15            // how many repos to list
+  var limit = 20            // how many repos to list
   var login = 'johnreilly' // your username
 
   $.getJSON('http://github.com/api/v1/json/' + login + '?callback=?', function(data) {

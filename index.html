@@ -2,9 +2,26 @@
 layout: default
 title: johnreilly
 ---
-<h2>What's New</h2>
-<ul class="posts">
-  {% for post in site.posts %}
-    <li><span>{{ post.date | date_to_string }}</span> :: <a href="{{ post.url }}">{{ post.title }}</a></li>
-  {% endfor %}
-</ul>
+
+<div class="main span-11">
+  <h2>What's New</h2>
+  <ul class="posts">
+    {% for post in site.posts %}
+      <li><span>{{ post.date | date_to_string }}</span> :: <a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+</div>
+
+<div class="tweets span-5">
+  <ul class= "list" id="tweets">
+    <li><h3>Tweets.</h3></li>
+  </ul>
+</div>
+
+<div class="repos span-5 last">
+  <ul class= "list" id="repos">
+    <li><h3>Code.</h3></li>
+  </ul>
+</div>
+
+
