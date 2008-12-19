@@ -15,7 +15,13 @@ div.header {
   color: #666;
   text-decoration: none;
 }
-
+.header img {
+  float: right;
+  margin-top: -40px;
+  margin-right: 15px;
+  width: 80px;
+  height: 80px;
+}
 /* Main */
 .main {
   font-family: Helvetica, Arial, sans-serif;
@@ -31,7 +37,10 @@ div.header {
 ul.list li {
   list-style-type: none;
   text-align: right;
-  font-size: 10px;
+  font-size: 11px;
+}
+ul.list h3, ul.list h3 a {
+  color:#666;
 }
 #tweets li {
   margin-bottom: 10px;
@@ -39,6 +48,7 @@ ul.list li {
 span.tweet_text {
   display:block;
   text-align: left;
+  word-wrap:break-word;
 }
 span.created_at {
   display:block;
