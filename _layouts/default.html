@@ -1,32 +1,60 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
  
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
-<head>
-   <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-   <title>jr: {{ page.title }}</title>
-   <meta name="author" content="John Reilly" />
-</head>
-<body>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>jr: {{ page.title }}</title>
+    <meta name="author" content="John Reilly" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.2.6/jquery.min.js" type="text/javascript"></script>
+  	<link rel="stylesheet" href="css/screen.css" type="text/css" media="screen, projection">
+    <link rel="stylesheet" href="css/print.css" type="text/css" media="print">
+    <!--[if IE]>
+      <link rel="stylesheet" href="css/ie.css" type="text/css" media="screen, projection">
+    <![endif]-->
+
+  	<link rel="stylesheet" href="css/style.css" type="text/css" media="screen" charset="utf-8"/>
+  </head>
+  <body>
  
-  <div class="site">
-    <div class="header">
-      <h1>johnreilly</h1>
+    <div class="container">
+      
+      <div class="header span-21 last">
+        <h1><a href="http://johnreilly.github.com/">johnreilly</a></h1>
+      </div>
+      
+      <div class="main span-15">
+        {{ content }}
+      </div>
+      
+      <div class="repos span-6 last">
+        <ul id="repos">
+          <li><h3>Code.</h3></li>
+        </ul>
+      </div>
+      
+      <div class="footer span-21 last">
+        <h3>Find me.</h3>
+        <div class="span-8 prepend-3">
+          <ul id="me_links" class="contacts">
+            <li class="heading">Personal</li>
+            <li>Twitter :: <a href="http://twitter.com/johnreilly">http://twitter.com/johnreilly</a></li>
+            <li>Tumblr :: <a href="http://johnreilly.tumblr.com">http://johnreilly.tumblr.com</a></li>
+            <li>Flickr :: <a href="http://flickr.com/people/johnreilly">http://flickr.com/people/johnreilly</a></li>
+            <li>john.j.reilly@gmail.com</li>
+          </ul>
+        </div>
+        <div class="span-8 last">
+          <ul id="pro_links" class="contacts">
+            <li class="heading">Professional</li>
+            <li>Work :: <a href="http://www.trms.com/">http://www.trms.com</a></li>
+            <li>WorkBlog :: <a href="http://blog.trms.com/john">http://blog.trms.com/john</a></li>
+            <li>jr@trms.com</li>
+          </ul>
+        </div>
+      </div>
     </div>
-    <div class="main">
-      {{ content }}
-    </div>
-    <div class="repos">
-      <ul id="repos">
-        <li><h3>Code.</h3></li>
-      </ul>
-    </div>
-    <div class="footer">
 
-    </div>
-  </div>
-
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.2.6/jquery.min.js" type="text/javascript"></script>
-<script src="javascript/repos.js"></script>
-</body>
+  <script src="javascript/repos.js"></script>
+  </body>
 </html>

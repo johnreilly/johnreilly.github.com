@@ -1,0 +1,62 @@
+/* Globals */
+a {
+  text-decoration: none;
+  color: #009;
+}
+
+/* Header */
+div.header {
+  margin-top: 40px;
+}
+.header h1 {
+  letter-spacing: -3px;
+}
+.header h1 a {
+  color: #666;
+  text-decoration: none;
+}
+
+/* Main */
+.main {
+  font-family: Helvetica, Arial, sans-serif;
+}
+.main h2 {
+  text-align:center;
+  text-transform:lowercase;
+  letter-spacing: 10px;
+  font-size: 10px;
+}
+
+/* Code listing */
+ul#repos li {
+  list-style-type: none;
+  text-align: right;
+}
+
+/* Footerstuff */
+.footer {
+  background-color: #eee;
+  padding-bottom: 100px;
+}
+.footer h3 {
+  margin:0;
+  padding: 10px 0 10px 10px;
+  color: #666;
+}
+ul.contacts {
+  margin: 5px 0 0 0;
+  padding: 0;
+  color: #999;
+}
+ul.contacts li {
+  list-style-type: none;
+}
+ul.contacts li.heading {
+  font-weight: bold;
+}
+#pro_links {
+/*  float: right;*/
+}
+#me_links {
+/*  float:left;*/
+}
