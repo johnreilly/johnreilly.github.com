@@ -67,6 +67,10 @@ ul.contacts li {
 ul.contacts li.heading {
   font-weight: bold;
 }
+ul.contacts li.email {
+  margin-top: 5px;
+  font-weight: bold;
+}
 #pro_links {
 /*  float: right;*/
 }
