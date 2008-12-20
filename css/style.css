@@ -12,7 +12,7 @@ div.header {
   letter-spacing: -3px;
 }
 .header h1 a {
-  color: #666;
+  color: #999;
   text-decoration: none;
 }
 .header img {
@@ -31,6 +31,36 @@ div.header {
   text-transform:lowercase;
   letter-spacing: 10px;
   font-size: 10px;
+}
+ul.posts li {
+  list-style: none;
+}
+span.post_date {
+  font-size: smaller;
+  font-weight: bold;
+  color: #999;
+  display:block;
+}
+span.post_link {
+  font-size: 24px;
+  display:block;
+  margin-left:20px;
+  line-height: 100%;
+}
+h1.post_title {
+  font-weight:bold;
+}
+div.post_content {
+  margin-bottom: 50px;
+}
+div.signature {
+  text-align: right;
+  color: #999;
+}
+div.main_wrapper {
+  min-height:450px;
+  height: auto !important;
+  height: 450px;
 }
 
 /* Twitter and Code listing */
