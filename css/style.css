@@ -34,6 +34,7 @@ div.header {
 }
 ul.posts li {
   list-style: none;
+  margin-bottom: 20px;
 }
 span.post_date {
   font-size: smaller;
