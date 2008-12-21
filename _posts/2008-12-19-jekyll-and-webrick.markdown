@@ -44,3 +44,11 @@ Find my fork of Jekyll [here](http://github.com/johnreilly/jekyll).
 **Caveat**: Right now, it's hard coded to run on port 4000, simply because I was too lazy to figure out how to pass in a <code>port</code> option. Maybe I'll change that someday, maybe someone else will.  For now, it's working great for me.
 
 **Why WEBrick?** I didn't feel like including mongrel as a gem dependency.  Everyone's got WEBrick installed, and there's no need for this to be a speed demon, so why not pick the easiest option?
+
+
+<div class="post_comments">
+  <script type="text/javascript">var disqus_url = "http://johnreilly.github.com{{ page.url }}"; var disqus_title ="{{ page.title }}";</script>
+  <div id="disqus_thread"></div><script type="text/javascript" src="http://disqus.com/forums/johnreilly-github/embed.js"></script>
+  <a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+</div>
+<div class="signature">-johnreilly</div>
