@@ -57,6 +57,9 @@ div.signature {
   text-align: right;
   color: #999;
 }
+div.post_comments {
+  margin-top: 50px;
+}
 div.main_wrapper {
   min-height:450px;
   height: auto !important;
