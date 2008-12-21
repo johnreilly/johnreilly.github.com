@@ -43,9 +43,13 @@ span.post_date {
 }
 span.post_link {
   font-size: 24px;
-  display:block;
   margin-left:20px;
   line-height: 100%;
+}
+span.comment_link a {
+  margin-left: 10px;
+  font-size: 10px;
+  color: #999;
 }
 h1.post_title {
   font-weight:bold;
